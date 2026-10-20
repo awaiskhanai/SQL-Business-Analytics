@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw source datasets
+data/raw/*.csv
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
